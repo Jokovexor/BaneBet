@@ -1,0 +1,504 @@
+2026-04-24 16:57:51,946 INFO 
+====================================================================
+2026-04-24 16:57:51,947 INFO   QUARTER4 — MULTI-MARKET BACKTEST (v5.3 - STANDALONE)
+2026-04-24 16:57:51,947 INFO   Kelly: 1/8  |  Prog: 0.88
+2026-04-24 16:57:51,948 INFO   Filtrowanie kursow: max=3.5, min=1.1
+2026-04-24 16:57:51,948 INFO ====================================================================
+
+2026-04-24 16:57:51,948 INFO [MODEL] Nowy model (start od zera)
+2026-04-24 16:57:51,948 INFO [EVENTS] Wczytuje: /mnt/c/Users/rockd/Desktop/universal_model/events.csv
+2026-04-24 16:57:52,015 INFO [EVENTS] 5018 rekordow
+2026-04-24 16:57:52,069 INFO [EVENTS] Po parsowaniu: 5018 meczow
+
+2026-04-24 16:57:52,071 INFO [CACHE] 0 wynikow w cache
+
+2026-04-24 16:58:18,392 INFO   [W] BTTS_YES   2023-07-29         Slask Wroclaw vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0118
+2026-04-24 16:58:20,793 INFO   [W] BTTS_YES   2023-07-29    Jagiellonia Bialys vs Puszcza Niepolomic  pick=   NO  @1.36  stk=0.0222  edge=+0.047  pnl=+0.0080  BR=1.0198
+2026-04-24 16:58:23,217 INFO   [W] BTTS_YES   2023-07-30        Pogon Szczecin vs Widzew Łódź         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0299
+2026-04-24 16:58:28,216 INFO   [W] BTTS_YES   2023-08-04    Jagiellonia Bialys vs Widzew Łódź         pick=   NO  @1.36  stk=0.0218  edge=+0.046  pnl=+0.0078  BR=1.0377
+2026-04-24 16:58:30,699 INFO   [W] BTTS_YES   2023-08-04              ŁKS Łódź vs Korona Kielce       pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0495
+2026-04-24 16:58:35,668 INFO   [W] BTTS_YES   2023-08-05         Gornik Zabrze vs Piast Gliwice       pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.0556
+2026-04-24 16:58:40,544 INFO   [W] BTTS_YES   2023-08-06        Zaglebie Lubin vs Lech Poznan         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0657
+2026-04-24 16:58:43,082 INFO   [W] BTTS_YES   2023-08-06                 Legia vs Ruch Chorzow        pick=   NO  @1.33  stk=0.0251  edge=+0.050  pnl=+0.0083  BR=1.0740
+2026-04-24 16:58:45,520 INFO   [W] BTTS_YES   2023-08-07    Puszcza Niepolomic vs Stal Mielec         pick=   NO  @1.30  stk=0.0319  edge=+0.059  pnl=+0.0096  BR=1.0836
+2026-04-24 16:58:47,968 INFO   [W] BTTS_YES   2023-08-11              Cracovia vs Zaglebie Lubin      pick=   NO  @1.36  stk=0.0345  edge=+0.073  pnl=+0.0124  BR=1.0960
+2026-04-24 16:58:50,496 INFO   [W] BTTS_YES   2023-08-11         Piast Gliwice vs Rakow Czestochowa   pick=   NO  @1.22  stk=0.0235  edge=+0.034  pnl=+0.0052  BR=1.1012
+2026-04-24 16:58:57,834 INFO   [W] BTTS_YES   2023-08-12           Stal Mielec vs Slask Wroclaw       pick=   NO  @1.29  stk=0.0427  edge=+0.077  pnl=+0.0124  BR=1.1136
+2026-04-24 16:59:00,315 INFO   [W] BTTS_YES   2023-08-12           Widzew Łódź vs ŁKS Łódź            pick=   NO  @1.33  stk=0.0197  edge=+0.039  pnl=+0.0065  BR=1.1201
+2026-04-24 16:59:02,825 INFO   [W] BTTS_YES   2023-08-12         Korona Kielce vs Gornik Zabrze       pick=   NO  @1.30  stk=0.0412  edge=+0.076  pnl=+0.0124  BR=1.1325
+2026-04-24 16:59:15,145 INFO   [W] BTTS_YES   2023-08-13        Pogon Szczecin vs Radomiak Radom      pick=   NO  @1.36  stk=0.0246  edge=+0.052  pnl=+0.0089  BR=1.1414
+2026-04-24 16:59:32,428 INFO   [W] BTTS_YES   2023-08-18         Gornik Zabrze vs Widzew Łódź         pick=   NO  @1.33  stk=0.0293  edge=+0.058  pnl=+0.0097  BR=1.1511
+2026-04-24 16:59:34,852 INFO   [W] BTTS_YES   2023-08-18        Zaglebie Lubin vs Puszcza Niepolomic  pick=   NO  @1.29  stk=0.0311  edge=+0.056  pnl=+0.0090  BR=1.1601
+2026-04-24 16:59:39,807 INFO   [W] BTTS_YES   2023-08-18              Mallorca vs Villarreal          pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.1662
+2026-04-24 17:05:40,753 INFO   [W] BTTS_YES   2023-09-18     Nottingham Forest vs Burnley             pick=   NO  @1.32  stk=0.0202  edge=+0.039  pnl=+0.0065  BR=2.1079
+2026-04-24 17:09:39,547 INFO   [W] BTTS_YES   2023-09-30                 Lecce vs Napoli              pick=   NO  @1.25  stk=0.0373  edge=+0.060  pnl=+0.0093  BR=3.0884
+2026-04-24 17:13:32,755 INFO   [W] BTTS_YES   2023-10-22           Aston Villa vs West Ham            pick=   NO  @1.41  stk=0.0414  edge=+0.096  pnl=+0.0170  BR=4.0682
+2026-04-24 17:17:37,132 INFO   [...] Przetworzono 500/5018 meczow (CSV=0, API=499)
+2026-04-24 17:17:39,996 INFO   [W] BTTS_YES   2023-11-05     Rakow Czestochowa vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0330  edge=+0.065  pnl=+0.0109  BR=5.1364
+2026-04-24 17:17:39,997 INFO 
+[TRAIN] Walk-forward blok #1 — trening na 500 meczach...
+2026-04-24 17:17:43,787 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 17:21:37,561 INFO   [W] BTTS_YES   2023-11-26            Hoffenheim vs Mainz               pick=   NO  @1.44  stk=0.0500  edge=+0.124  pnl=+0.0220  BR=6.1758
+2026-04-24 17:25:33,018 INFO   [W] BTTS_YES   2023-12-10           Lech Poznan vs Piast Gliwice       pick=   NO  @1.25  stk=0.0367  edge=+0.059  pnl=+0.0092  BR=7.1919
+2026-04-24 17:29:25,048 INFO   [W] BTTS_YES   2023-12-23                Torino vs Udinese             pick=   NO  @1.22  stk=0.0259  edge=+0.037  pnl=+0.0057  BR=8.2347
+2026-04-24 17:33:24,679 INFO   [W] BTTS_YES   2024-01-21      Sheffield United vs West Ham            pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=9.1660
+2026-04-24 17:37:29,430 INFO   [...] Przetworzono 1000/5018 meczow (CSV=0, API=999)
+2026-04-24 17:37:31,868 INFO   [W] BTTS_YES   2024-02-09     Borussia Dortmund vs Freiburg            pick=   NO  @1.44  stk=0.0394  edge=+0.096  pnl=+0.0173  BR=10.0916
+2026-04-24 17:37:31,870 INFO 
+[TRAIN] Walk-forward blok #2 — trening na 1000 meczach...
+2026-04-24 17:37:33,006 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 17:41:32,579 INFO   [W] OU35       2024-02-23      Bayer Leverkusen vs Mainz               pick=UNDER  @2.00  stk=0.0500  edge=+0.277  pnl=+0.0500  BR=4.4970
+2026-04-24 17:45:28,674 INFO   [W] OU35       2024-03-09               Arsenal vs Brentford           pick=UNDER  @2.10  stk=0.0500  edge=+0.286  pnl=+0.0550  BR=4.9620
+2026-04-24 17:49:29,135 INFO   [W] BTTS_YES   2024-03-30               Almeria vs Osasuna             pick=   NO  @1.30  stk=0.0432  edge=+0.080  pnl=+0.0130  BR=13.1596
+2026-04-24 17:53:24,911 INFO   [W] BTTS_YES   2024-04-13                 Mainz vs Hoffenheim          pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=14.3584
+2026-04-24 17:57:20,154 INFO   [...] Przetworzono 1500/5018 meczow (CSV=0, API=1499)
+2026-04-24 17:57:22,668 INFO   [L] DC_1X      2024-04-27              Freiburg vs Wolfsburg           pick=   1X  @1.36  stk=0.0345  edge=+0.073  pnl=-0.0345  BR=0.7536
+2026-04-24 17:57:22,669 INFO   [W] BTTS_YES   2024-04-27              Freiburg vs Wolfsburg           pick=   NO  @1.33  stk=0.0273  edge=+0.054  pnl=+0.0090  BR=15.5019
+2026-04-24 17:57:22,670 INFO 
+[TRAIN] Walk-forward blok #3 — trening na 1500 meczach...
+2026-04-24 17:57:24,097 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 18:01:21,527 INFO   [W] DC_1X      2024-05-11            FC Cologne vs Union Berlin        pick=   1X  @1.44  stk=0.0500  edge=+0.158  pnl=+0.0220  BR=0.8960
+2026-04-24 18:01:21,528 INFO   [W] BTTS_YES   2024-05-11            FC Cologne vs Union Berlin        pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=16.8465
+2026-04-24 18:05:18,570 INFO   [W] DC_1X      2024-05-25               Osasuna vs Villarreal          pick=   1X  @1.50  stk=0.0203  edge=+0.054  pnl=+0.0101  BR=0.6073
+2026-04-24 18:05:18,571 INFO   [W] BTTS_YES   2024-05-25               Osasuna vs Villarreal          pick=   NO  @1.53  stk=0.0464  edge=+0.129  pnl=+0.0246  BR=18.1917
+2026-04-24 18:05:18,571 INFO   [W] OU35       2024-05-25               Osasuna vs Villarreal          pick=UNDER  @1.85  stk=0.0500  edge=+0.253  pnl=+0.0425  BR=9.3885
+2026-04-24 18:09:13,252 INFO   [W] DC_1X      2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   1X  @1.24  stk=0.0246  edge=+0.038  pnl=+0.0059  BR=0.5072
+2026-04-24 18:09:13,253 INFO   [W] BTTS_YES   2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   NO  @1.47  stk=0.0485  edge=+0.124  pnl=+0.0228  BR=19.1276
+2026-04-24 18:09:13,254 INFO   [W] OU35       2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=10.2020
+2026-04-24 18:13:10,783 INFO   [W] DC_1X      2024-09-14              Cracovia vs Pogon Szczecin      pick=   1X  @1.57  stk=0.0272  edge=+0.079  pnl=+0.0155  BR=0.3464
+2026-04-24 18:13:10,784 INFO   [W] BTTS_YES   2024-09-14              Cracovia vs Pogon Szczecin      pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=20.1366
+2026-04-24 18:17:03,206 INFO   [...] Przetworzono 2000/5018 meczow (CSV=0, API=1999)
+2026-04-24 18:17:05,643 INFO   [W] BTTS_YES   2024-09-26            Las Palmas vs Betis               pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=21.1975
+2026-04-24 18:17:05,644 INFO 
+[TRAIN] Walk-forward blok #4 — trening na 2000 meczach...
+2026-04-24 18:17:06,875 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 18:21:03,599 INFO   [W] BTTS_YES   2024-10-18         Lechia Gdansk vs Legia               pick=   NO  @1.34  stk=0.0386  edge=+0.078  pnl=+0.0131  BR=22.2886
+2026-04-24 18:24:56,044 INFO   [W] BTTS_YES   2024-10-30              Atalanta vs Monza               pick=   NO  @1.25  stk=0.0246  edge=+0.039  pnl=+0.0062  BR=23.4962
+2026-04-24 18:24:56,044 INFO   [W] OU25       2024-10-30              Atalanta vs Monza               pick=UNDER  @2.47  stk=0.0500  edge=+0.314  pnl=+0.0735  BR=2.9815
+2026-04-24 18:24:56,045 INFO   [W] OU35       2024-10-30              Atalanta vs Monza               pick=UNDER  @1.67  stk=0.0500  edge=+0.215  pnl=+0.0335  BR=17.4790
+2026-04-24 18:32:46,120 INFO   [W] BTTS_YES   2024-12-04               Arsenal vs Manchester Utd      pick=   NO  @1.28  stk=0.0414  edge=+0.072  pnl=+0.0116  BR=25.6496
+2026-04-24 18:32:46,121 INFO   [W] OU35       2024-12-04               Arsenal vs Manchester Utd      pick=UNDER  @2.73  stk=0.0500  edge=+0.353  pnl=+0.0865  BR=26.0565
+2026-04-24 18:36:37,473 INFO   [...] Przetworzono 2500/5018 meczow (CSV=0, API=2496)
+2026-04-24 18:36:39,886 INFO   [W] DC_1X      2024-12-21           Aston Villa vs Manchester City     pick=   1X  @1.67  stk=0.0500  edge=+0.179  pnl=+0.0335  BR=0.3304
+2026-04-24 18:36:39,886 INFO   [W] BTTS_YES   2024-12-21           Aston Villa vs Manchester City     pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=26.8384
+2026-04-24 18:36:39,887 INFO   [W] OU35       2024-12-21           Aston Villa vs Manchester City     pick=UNDER  @2.56  stk=0.0500  edge=+0.339  pnl=+0.0780  BR=31.6742
+2026-04-24 18:36:47,274 INFO 
+[TRAIN] Walk-forward blok #5 — trening na 2500 meczach...
+2026-04-24 18:36:48,805 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 18:40:36,121 INFO   [W] BTTS_YES   2025-01-12            RB Leipzig vs Werder Bremen       pick=   NO  @1.44  stk=0.0377  edge=+0.092  pnl=+0.0166  BR=27.9790
+2026-04-24 18:44:40,411 INFO   [W] BTTS_YES   2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=29.0445
+2026-04-24 18:44:40,427 INFO   [W] OU35       2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=UNDER  @1.83  stk=0.0500  edge=+0.244  pnl=+0.0415  BR=41.9041
+2026-04-24 18:48:42,226 INFO   [W] DC_1X      2025-02-14              Augsburg vs RB Leipzig          pick=   1X  @1.62  stk=0.0470  edge=+0.144  pnl=+0.0291  BR=0.0391
+2026-04-24 18:48:42,227 INFO   [W] BTTS_YES   2025-02-14              Augsburg vs RB Leipzig          pick=   NO  @1.37  stk=0.0430  edge=+0.093  pnl=+0.0159  BR=30.1008
+2026-04-24 18:52:36,524 INFO   [W] BTTS_YES   2025-02-26        Manchester Utd vs Ipswich Town        pick=   NO  @1.34  stk=0.0375  edge=+0.076  pnl=+0.0128  BR=31.1168
+2026-04-24 18:52:36,525 INFO   [W] OU35       2025-02-26        Manchester Utd vs Ipswich Town        pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=46.5401
+2026-04-24 18:56:25,787 INFO   [...] Przetworzono 3000/5018 meczow (CSV=0, API=2995)
+2026-04-24 18:56:28,223 INFO   [W] BTTS_YES   2025-03-15          Ipswich Town vs Nottingham Forest   pick=   NO  @1.34  stk=0.0315  edge=+0.064  pnl=+0.0107  BR=32.0288
+2026-04-24 18:56:38,069 INFO 
+[TRAIN] Walk-forward blok #6 — trening na 3000 meczach...
+2026-04-24 18:56:40,576 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 19:00:19,647 INFO   [W] BTTS_YES   2025-04-05            RB Leipzig vs Hoffenheim          pick=   NO  @1.44  stk=0.0499  edge=+0.122  pnl=+0.0220  BR=32.8018
+2026-04-24 19:00:19,648 INFO   [W] OU35       2025-04-05            RB Leipzig vs Hoffenheim          pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=50.1476
+2026-04-24 19:04:21,781 INFO   [W] DC_1X      2025-04-19                  Roma vs Verona              pick=   1X  @1.13  stk=0.0500  edge=+0.047  pnl=+0.0065  BR=0.1761
+2026-04-24 19:04:21,782 INFO   [W] DC_12      2025-04-19                  Roma vs Verona              pick=   12  @1.27  stk=0.0180  edge=+0.031  pnl=+0.0049  BR=0.3925
+2026-04-24 19:04:21,783 INFO   [W] BTTS_YES   2025-04-19                  Roma vs Verona              pick=   NO  @1.26  stk=0.0348  edge=+0.057  pnl=+0.0090  BR=33.7559
+2026-04-24 19:08:18,255 INFO   [W] BTTS_YES   2025-05-03                 Inter vs Verona              pick=   NO  @1.22  stk=0.0247  edge=+0.036  pnl=+0.0054  BR=34.8754
+2026-04-24 19:08:18,255 INFO   [W] OU25       2025-05-03                 Inter vs Verona              pick=UNDER  @2.10  stk=0.0500  edge=+0.281  pnl=+0.0550  BR=8.8835
+2026-04-24 19:08:18,256 INFO   [W] OU35       2025-05-03                 Inter vs Verona              pick=UNDER  @1.67  stk=0.0500  edge=+0.212  pnl=+0.0335  BR=54.3451
+2026-04-24 19:12:16,681 INFO   [W] BTTS_YES   2025-05-18          GKS Katowice vs Lech Poznan         pick=   NO  @1.36  stk=0.0329  edge=+0.070  pnl=+0.0118  BR=36.1969
+2026-04-24 19:16:19,615 INFO   [...] Przetworzono 3500/5018 meczow (CSV=0, API=3495)
+2026-04-24 19:16:22,162 INFO   [W] BTTS_YES   2025-08-09           Widzew Łódź vs Wisla Plock         pick=   NO  @1.29  stk=0.0184  edge=+0.033  pnl=+0.0053  BR=37.2388
+2026-04-24 19:16:32,312 INFO 
+[TRAIN] Walk-forward blok #7 — trening na 3500 meczach...
+2026-04-24 19:16:39,587 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 19:20:34,969 INFO   [W] BTTS_YES   2025-08-30             Stuttgart vs Borussia Mogladbac  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=38.0182
+2026-04-24 19:20:34,970 INFO   [W] OU35       2025-08-30             Stuttgart vs Borussia Mogladbac  pick=UNDER  @2.05  stk=0.0500  edge=+0.284  pnl=+0.0525  BR=59.3106
+2026-04-24 19:24:37,393 INFO   [W] BTTS_YES   2025-09-20                Girona vs Levante             pick=   NO  @1.32  stk=0.0315  edge=+0.061  pnl=+0.0101  BR=38.9406
+2026-04-24 19:28:36,420 INFO   [W] DC_1X      2025-10-04              Augsburg vs Wolfsburg           pick=   1X  @1.44  stk=0.0162  edge=+0.040  pnl=+0.0071  BR=0.1251
+2026-04-24 19:28:36,420 INFO   [W] BTTS_YES   2025-10-04              Augsburg vs Wolfsburg           pick=   NO  @1.40  stk=0.0392  edge=+0.090  pnl=+0.0157  BR=39.7764
+2026-04-24 19:28:36,421 INFO   [W] OU35       2025-10-04              Augsburg vs Wolfsburg           pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=61.6251
+2026-04-24 19:32:34,498 INFO   [W] BTTS_YES   2025-10-25        Pogon Szczecin vs Cracovia            pick=   NO  @1.40  stk=0.0353  edge=+0.081  pnl=+0.0141  BR=40.7327
+2026-04-24 19:36:26,660 INFO   [...] Przetworzono 4000/5018 meczow (CSV=0, API=3992)
+2026-04-24 19:36:29,211 INFO   [W] BTTS_YES   2025-11-08      Bayer Leverkusen vs Heidenheim          pick=   NO  @1.35  stk=0.0339  edge=+0.070  pnl=+0.0119  BR=41.6714
+2026-04-24 19:36:29,211 INFO   [W] OU35       2025-11-08      Bayer Leverkusen vs Heidenheim          pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=65.3171
+2026-04-24 19:36:46,473 INFO 
+[TRAIN] Walk-forward blok #8 — trening na 4000 meczach...
+2026-04-24 19:36:48,373 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 19:40:35,064 INFO   [L] DC_1X      2025-11-29         Korona Kielce vs Cracovia            pick=   1X  @1.36  stk=0.0218  edge=+0.046  pnl=-0.0218  BR=0.0486
+2026-04-24 19:48:36,759 INFO   [W] DC_1X      2026-01-03                  Como vs Udinese             pick=   1X  @1.19  stk=0.0476  edge=+0.061  pnl=+0.0090  BR=0.2654
+2026-04-24 19:48:36,759 INFO   [W] DC_12      2026-01-03                  Como vs Udinese             pick=   12  @1.32  stk=0.0239  edge=+0.046  pnl=+0.0076  BR=0.3889
+2026-04-24 19:48:36,760 INFO   [W] OU35       2026-01-03                  Como vs Udinese             pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=71.9696
+2026-04-24 19:52:35,310 INFO   [W] OU25       2026-01-17           Real Madrid vs Levante             pick=UNDER  @2.25  stk=0.0500  edge=+0.282  pnl=+0.0625  BR=12.2639
+2026-04-24 19:52:35,311 INFO   [W] OU35       2026-01-17           Real Madrid vs Levante             pick=UNDER  @1.73  stk=0.0500  edge=+0.224  pnl=+0.0365  BR=74.8411
+2026-04-24 19:56:27,687 INFO   [...] Przetworzono 4500/5018 meczow (CSV=0, API=4492)
+2026-04-24 19:56:47,681 INFO 
+[TRAIN] Walk-forward blok #9 — trening na 4500 meczach...
+2026-04-24 19:56:49,886 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:00:28,267 INFO   [L] DC_1X      2026-02-16              Cagliari vs Lecce               pick=   1X  @1.31  stk=0.0291  edge=+0.055  pnl=-0.0291  BR=0.0100
+2026-04-24 20:00:28,268 INFO   [W] DC_12      2026-02-16              Cagliari vs Lecce               pick=   12  @1.44  stk=0.0295  edge=+0.072  pnl=+0.0130  BR=0.3622
+2026-04-24 20:04:11,727 INFO   [W] DC_1X      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   1X  @1.31  stk=0.0500  edge=+0.104  pnl=+0.0155  BR=0.1161
+2026-04-24 20:04:11,727 INFO   [W] DC_12      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   12  @1.57  stk=0.0500  edge=+0.152  pnl=+0.0285  BR=0.5946
+2026-04-24 20:08:04,559 INFO   [L] DC_12      2026-03-16        Rayo Vallecano vs Levante             pick=   12  @1.50  stk=0.0429  edge=+0.114  pnl=-0.0429  BR=0.7853
+2026-04-24 20:12:00,717 INFO   [W] DC_12      2026-04-11            Heidenheim vs Union Berlin        pick=   12  @1.41  stk=0.0245  edge=+0.057  pnl=+0.0100  BR=1.1283
+2026-04-24 20:12:00,718 INFO   [W] OU35       2026-04-11            Heidenheim vs Union Berlin        pick=UNDER  @1.91  stk=0.0500  edge=+0.257  pnl=+0.0455  BR=89.1186
+2026-04-24 20:16:41,502 INFO [MODEL] Zapisano: /mnt/c/Users/rockd/Desktop/universal_model/Karasu_2_model_state.pkl
+2026-04-24 20:16:41,502 INFO 
+[OK] Meczow: 5001  |  Z wynikiem: 4963 (CSV=0, API=4963)
+2026-04-24 20:16:41,505 INFO 
+[METRYKI] MAE 1X2 (wszystkie mecze): 0.3676
+2026-04-24 20:16:41,505 INFO [METRYKI] Accuracy 1X2 (wszystkie mecze): 60.6% (4963 meczow, bez selection bias)
+2026-04-24 20:16:41,505 INFO   1X2       : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:16:41,506 INFO   DC_1X     : 1292 zakladow, 869 W, bankroll=0.0354
+2026-04-24 20:16:41,506 INFO   DC_X2     : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:16:41,506 INFO   DC_12     : 921 zakladow, 645 W, bankroll=1.3497
+2026-04-24 20:16:41,507 INFO   BTTS_YES  : 3298 zakladow, 3298 W, bankroll=41.9798
+2026-04-24 20:16:41,507 INFO   OU15      : 7 zakladow, 7 W, bankroll=1.1594
+2026-04-24 20:16:41,508 INFO   OU25      : 241 zakladow, 241 W, bankroll=16.3594
+2026-04-24 20:16:41,508 INFO   OU35      : 1632 zakladow, 1632 W, bankroll=90.6926
+2026-04-24 20:16:41,508 INFO   AH05      : 14 zakladow, 9 W, bankroll=1.1410
+2026-04-24 20:26:36,138 INFO 
+====================================================================
+2026-04-24 20:26:36,139 INFO   QUARTER4 — MULTI-MARKET BACKTEST (v5.3 - STANDALONE)
+2026-04-24 20:26:36,139 INFO   Kelly: 1/8  |  Prog: 0.88
+2026-04-24 20:26:36,139 INFO   Filtrowanie kursow: max=3.5, min=1.1
+2026-04-24 20:26:36,139 INFO ====================================================================
+
+2026-04-24 20:26:36,140 INFO [MODEL] Nowy model (start od zera)
+2026-04-24 20:26:36,140 INFO [EVENTS] Wczytuje: /mnt/c/Users/rockd/Desktop/universal_model/events.csv
+2026-04-24 20:26:36,189 INFO [EVENTS] 5018 rekordow
+2026-04-24 20:26:36,243 INFO [EVENTS] Po parsowaniu: 5018 meczow
+
+2026-04-24 20:26:36,255 INFO [CACHE] 5001 wynikow w cache
+
+2026-04-24 20:26:36,258 INFO   [W] BTTS_YES   2023-07-29         Slask Wroclaw vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0118
+2026-04-24 20:26:36,259 INFO   [W] BTTS_YES   2023-07-29    Jagiellonia Bialys vs Puszcza Niepolomic  pick=   NO  @1.36  stk=0.0222  edge=+0.047  pnl=+0.0080  BR=1.0198
+2026-04-24 20:26:36,260 INFO   [W] BTTS_YES   2023-07-30        Pogon Szczecin vs Widzew Łódź         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0299
+2026-04-24 20:26:36,261 INFO   [W] BTTS_YES   2023-08-04    Jagiellonia Bialys vs Widzew Łódź         pick=   NO  @1.36  stk=0.0218  edge=+0.046  pnl=+0.0078  BR=1.0377
+2026-04-24 20:26:36,262 INFO   [W] BTTS_YES   2023-08-04              ŁKS Łódź vs Korona Kielce       pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0495
+2026-04-24 20:26:36,263 INFO   [W] BTTS_YES   2023-08-05         Gornik Zabrze vs Piast Gliwice       pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.0556
+2026-04-24 20:26:36,264 INFO   [W] BTTS_YES   2023-08-06        Zaglebie Lubin vs Lech Poznan         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0657
+2026-04-24 20:26:36,265 INFO   [W] BTTS_YES   2023-08-06                 Legia vs Ruch Chorzow        pick=   NO  @1.33  stk=0.0251  edge=+0.050  pnl=+0.0083  BR=1.0740
+2026-04-24 20:26:36,265 INFO   [W] BTTS_YES   2023-08-07    Puszcza Niepolomic vs Stal Mielec         pick=   NO  @1.30  stk=0.0319  edge=+0.059  pnl=+0.0096  BR=1.0836
+2026-04-24 20:26:36,266 INFO   [W] BTTS_YES   2023-08-11              Cracovia vs Zaglebie Lubin      pick=   NO  @1.36  stk=0.0345  edge=+0.073  pnl=+0.0124  BR=1.0960
+2026-04-24 20:26:36,267 INFO   [W] BTTS_YES   2023-08-11         Piast Gliwice vs Rakow Czestochowa   pick=   NO  @1.22  stk=0.0235  edge=+0.034  pnl=+0.0052  BR=1.1012
+2026-04-24 20:26:36,268 INFO   [W] BTTS_YES   2023-08-12           Stal Mielec vs Slask Wroclaw       pick=   NO  @1.29  stk=0.0427  edge=+0.077  pnl=+0.0124  BR=1.1136
+2026-04-24 20:26:36,269 INFO   [W] BTTS_YES   2023-08-12           Widzew Łódź vs ŁKS Łódź            pick=   NO  @1.33  stk=0.0197  edge=+0.039  pnl=+0.0065  BR=1.1201
+2026-04-24 20:26:36,270 INFO   [W] BTTS_YES   2023-08-12         Korona Kielce vs Gornik Zabrze       pick=   NO  @1.30  stk=0.0412  edge=+0.076  pnl=+0.0124  BR=1.1325
+2026-04-24 20:26:36,271 INFO   [W] BTTS_YES   2023-08-13        Pogon Szczecin vs Radomiak Radom      pick=   NO  @1.36  stk=0.0246  edge=+0.052  pnl=+0.0089  BR=1.1414
+2026-04-24 20:26:36,273 INFO   [W] BTTS_YES   2023-08-18         Gornik Zabrze vs Widzew Łódź         pick=   NO  @1.33  stk=0.0293  edge=+0.058  pnl=+0.0097  BR=1.1511
+2026-04-24 20:26:36,274 INFO   [W] BTTS_YES   2023-08-18        Zaglebie Lubin vs Puszcza Niepolomic  pick=   NO  @1.29  stk=0.0311  edge=+0.056  pnl=+0.0090  BR=1.1601
+2026-04-24 20:26:36,275 INFO   [W] BTTS_YES   2023-08-18              Mallorca vs Villarreal          pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.1662
+2026-04-24 20:26:36,298 INFO   [W] BTTS_YES   2023-09-18     Nottingham Forest vs Burnley             pick=   NO  @1.32  stk=0.0202  edge=+0.039  pnl=+0.0065  BR=2.1079
+2026-04-24 20:26:36,314 INFO   [W] BTTS_YES   2023-09-30                 Lecce vs Napoli              pick=   NO  @1.25  stk=0.0373  edge=+0.060  pnl=+0.0093  BR=3.0884
+2026-04-24 20:26:36,330 INFO   [W] BTTS_YES   2023-10-22           Aston Villa vs West Ham            pick=   NO  @1.41  stk=0.0414  edge=+0.096  pnl=+0.0170  BR=4.0682
+2026-04-24 20:26:36,348 INFO   [...] Przetworzono 500/5018 meczow (CSV=0, API=499)
+2026-04-24 20:26:36,349 INFO   [W] BTTS_YES   2023-11-05     Rakow Czestochowa vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0330  edge=+0.065  pnl=+0.0109  BR=5.1364
+2026-04-24 20:26:36,349 INFO 
+[TRAIN] Walk-forward blok #1 — trening na 500 meczach...
+2026-04-24 20:26:38,340 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:38,369 INFO   [W] BTTS_YES   2023-11-26            Hoffenheim vs Mainz               pick=   NO  @1.44  stk=0.0500  edge=+0.124  pnl=+0.0220  BR=6.1758
+2026-04-24 20:26:38,397 INFO   [W] BTTS_YES   2023-12-10           Lech Poznan vs Piast Gliwice       pick=   NO  @1.25  stk=0.0367  edge=+0.059  pnl=+0.0092  BR=7.1919
+2026-04-24 20:26:38,427 INFO   [W] BTTS_YES   2023-12-23                Torino vs Udinese             pick=   NO  @1.22  stk=0.0259  edge=+0.037  pnl=+0.0057  BR=8.2347
+2026-04-24 20:26:38,455 INFO   [W] BTTS_YES   2024-01-21      Sheffield United vs West Ham            pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=9.1660
+2026-04-24 20:26:38,485 INFO   [...] Przetworzono 1000/5018 meczow (CSV=0, API=999)
+2026-04-24 20:26:38,487 INFO   [W] BTTS_YES   2024-02-09     Borussia Dortmund vs Freiburg            pick=   NO  @1.44  stk=0.0394  edge=+0.096  pnl=+0.0173  BR=10.0916
+2026-04-24 20:26:38,488 INFO 
+[TRAIN] Walk-forward blok #2 — trening na 1000 meczach...
+2026-04-24 20:26:41,807 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:41,847 INFO   [W] OU35       2024-02-23      Bayer Leverkusen vs Mainz               pick=UNDER  @2.00  stk=0.0500  edge=+0.277  pnl=+0.0500  BR=4.4970
+2026-04-24 20:26:41,877 INFO   [W] OU35       2024-03-09               Arsenal vs Brentford           pick=UNDER  @2.10  stk=0.0500  edge=+0.286  pnl=+0.0550  BR=4.9620
+2026-04-24 20:26:41,907 INFO   [W] BTTS_YES   2024-03-30               Almeria vs Osasuna             pick=   NO  @1.30  stk=0.0432  edge=+0.080  pnl=+0.0130  BR=13.1596
+2026-04-24 20:26:41,935 INFO   [W] BTTS_YES   2024-04-13                 Mainz vs Hoffenheim          pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=14.3584
+2026-04-24 20:26:41,964 INFO   [...] Przetworzono 1500/5018 meczow (CSV=0, API=1499)
+2026-04-24 20:26:41,965 INFO   [L] DC_1X      2024-04-27              Freiburg vs Wolfsburg           pick=   1X  @1.36  stk=0.0345  edge=+0.073  pnl=-0.0345  BR=0.7536
+2026-04-24 20:26:41,966 INFO   [W] BTTS_YES   2024-04-27              Freiburg vs Wolfsburg           pick=   NO  @1.33  stk=0.0273  edge=+0.054  pnl=+0.0090  BR=15.5019
+2026-04-24 20:26:41,966 INFO 
+[TRAIN] Walk-forward blok #3 — trening na 1500 meczach...
+2026-04-24 20:26:43,741 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:43,772 INFO   [W] DC_1X      2024-05-11            FC Cologne vs Union Berlin        pick=   1X  @1.44  stk=0.0500  edge=+0.158  pnl=+0.0220  BR=0.8960
+2026-04-24 20:26:43,773 INFO   [W] BTTS_YES   2024-05-11            FC Cologne vs Union Berlin        pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=16.8465
+2026-04-24 20:26:43,803 INFO   [W] DC_1X      2024-05-25               Osasuna vs Villarreal          pick=   1X  @1.50  stk=0.0203  edge=+0.054  pnl=+0.0101  BR=0.6073
+2026-04-24 20:26:43,804 INFO   [W] BTTS_YES   2024-05-25               Osasuna vs Villarreal          pick=   NO  @1.53  stk=0.0464  edge=+0.129  pnl=+0.0246  BR=18.1917
+2026-04-24 20:26:43,804 INFO   [W] OU35       2024-05-25               Osasuna vs Villarreal          pick=UNDER  @1.85  stk=0.0500  edge=+0.253  pnl=+0.0425  BR=9.3885
+2026-04-24 20:26:43,834 INFO   [W] DC_1X      2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   1X  @1.24  stk=0.0246  edge=+0.038  pnl=+0.0059  BR=0.5072
+2026-04-24 20:26:43,835 INFO   [W] BTTS_YES   2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   NO  @1.47  stk=0.0485  edge=+0.124  pnl=+0.0228  BR=19.1276
+2026-04-24 20:26:43,836 INFO   [W] OU35       2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=10.2020
+2026-04-24 20:26:43,867 INFO   [W] DC_1X      2024-09-14              Cracovia vs Pogon Szczecin      pick=   1X  @1.57  stk=0.0272  edge=+0.079  pnl=+0.0155  BR=0.3464
+2026-04-24 20:26:43,868 INFO   [W] BTTS_YES   2024-09-14              Cracovia vs Pogon Szczecin      pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=20.1366
+2026-04-24 20:26:43,897 INFO   [...] Przetworzono 2000/5018 meczow (CSV=0, API=1999)
+2026-04-24 20:26:43,898 INFO   [W] BTTS_YES   2024-09-26            Las Palmas vs Betis               pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=21.1975
+2026-04-24 20:26:43,899 INFO 
+[TRAIN] Walk-forward blok #4 — trening na 2000 meczach...
+2026-04-24 20:26:42,836 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:42,871 INFO   [W] BTTS_YES   2024-10-18         Lechia Gdansk vs Legia               pick=   NO  @1.34  stk=0.0386  edge=+0.078  pnl=+0.0131  BR=22.2886
+2026-04-24 20:26:42,903 INFO   [W] BTTS_YES   2024-10-30              Atalanta vs Monza               pick=   NO  @1.25  stk=0.0246  edge=+0.039  pnl=+0.0062  BR=23.4962
+2026-04-24 20:26:42,904 INFO   [W] OU25       2024-10-30              Atalanta vs Monza               pick=UNDER  @2.47  stk=0.0500  edge=+0.314  pnl=+0.0735  BR=2.9815
+2026-04-24 20:26:42,905 INFO   [W] OU35       2024-10-30              Atalanta vs Monza               pick=UNDER  @1.67  stk=0.0500  edge=+0.215  pnl=+0.0335  BR=17.4790
+2026-04-24 20:26:42,966 INFO   [W] BTTS_YES   2024-12-04               Arsenal vs Manchester Utd      pick=   NO  @1.28  stk=0.0414  edge=+0.072  pnl=+0.0116  BR=25.6496
+2026-04-24 20:26:42,967 INFO   [W] OU35       2024-12-04               Arsenal vs Manchester Utd      pick=UNDER  @2.73  stk=0.0500  edge=+0.353  pnl=+0.0865  BR=26.0565
+2026-04-24 20:26:43,003 INFO   [...] Przetworzono 2500/5018 meczow (CSV=0, API=2496)
+2026-04-24 20:26:43,005 INFO   [W] DC_1X      2024-12-21           Aston Villa vs Manchester City     pick=   1X  @1.67  stk=0.0500  edge=+0.179  pnl=+0.0335  BR=0.3304
+2026-04-24 20:26:43,005 INFO   [W] BTTS_YES   2024-12-21           Aston Villa vs Manchester City     pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=26.8384
+2026-04-24 20:26:43,006 INFO   [W] OU35       2024-12-21           Aston Villa vs Manchester City     pick=UNDER  @2.56  stk=0.0500  edge=+0.339  pnl=+0.0780  BR=31.6742
+2026-04-24 20:26:43,008 INFO 
+[TRAIN] Walk-forward blok #5 — trening na 2500 meczach...
+2026-04-24 20:26:45,147 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:45,179 INFO   [W] BTTS_YES   2025-01-12            RB Leipzig vs Werder Bremen       pick=   NO  @1.44  stk=0.0377  edge=+0.092  pnl=+0.0166  BR=27.9790
+2026-04-24 20:26:45,211 INFO   [W] BTTS_YES   2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=29.0445
+2026-04-24 20:26:45,211 INFO   [W] OU35       2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=UNDER  @1.83  stk=0.0500  edge=+0.244  pnl=+0.0415  BR=41.9041
+2026-04-24 20:26:45,244 INFO   [W] DC_1X      2025-02-14              Augsburg vs RB Leipzig          pick=   1X  @1.62  stk=0.0470  edge=+0.144  pnl=+0.0291  BR=0.0391
+2026-04-24 20:26:45,245 INFO   [W] BTTS_YES   2025-02-14              Augsburg vs RB Leipzig          pick=   NO  @1.37  stk=0.0430  edge=+0.093  pnl=+0.0159  BR=30.1008
+2026-04-24 20:26:45,276 INFO   [W] BTTS_YES   2025-02-26        Manchester Utd vs Ipswich Town        pick=   NO  @1.34  stk=0.0375  edge=+0.076  pnl=+0.0128  BR=31.1168
+2026-04-24 20:26:45,277 INFO   [W] OU35       2025-02-26        Manchester Utd vs Ipswich Town        pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=46.5401
+2026-04-24 20:26:45,308 INFO   [...] Przetworzono 3000/5018 meczow (CSV=0, API=2995)
+2026-04-24 20:26:45,310 INFO   [W] BTTS_YES   2025-03-15          Ipswich Town vs Nottingham Forest   pick=   NO  @1.34  stk=0.0315  edge=+0.064  pnl=+0.0107  BR=32.0288
+2026-04-24 20:26:45,312 INFO 
+[TRAIN] Walk-forward blok #6 — trening na 3000 meczach...
+2026-04-24 20:26:47,323 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:47,366 INFO   [W] BTTS_YES   2025-04-05            RB Leipzig vs Hoffenheim          pick=   NO  @1.44  stk=0.0499  edge=+0.122  pnl=+0.0220  BR=32.8018
+2026-04-24 20:26:47,367 INFO   [W] OU35       2025-04-05            RB Leipzig vs Hoffenheim          pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=50.1476
+2026-04-24 20:26:47,399 INFO   [W] DC_1X      2025-04-19                  Roma vs Verona              pick=   1X  @1.13  stk=0.0500  edge=+0.047  pnl=+0.0065  BR=0.1761
+2026-04-24 20:26:47,400 INFO   [W] DC_12      2025-04-19                  Roma vs Verona              pick=   12  @1.27  stk=0.0180  edge=+0.031  pnl=+0.0049  BR=0.3925
+2026-04-24 20:26:47,401 INFO   [W] BTTS_YES   2025-04-19                  Roma vs Verona              pick=   NO  @1.26  stk=0.0348  edge=+0.057  pnl=+0.0090  BR=33.7559
+2026-04-24 20:26:47,432 INFO   [W] BTTS_YES   2025-05-03                 Inter vs Verona              pick=   NO  @1.22  stk=0.0247  edge=+0.036  pnl=+0.0054  BR=34.8754
+2026-04-24 20:26:47,433 INFO   [W] OU25       2025-05-03                 Inter vs Verona              pick=UNDER  @2.10  stk=0.0500  edge=+0.281  pnl=+0.0550  BR=8.8835
+2026-04-24 20:26:47,434 INFO   [W] OU35       2025-05-03                 Inter vs Verona              pick=UNDER  @1.67  stk=0.0500  edge=+0.212  pnl=+0.0335  BR=54.3451
+2026-04-24 20:26:47,466 INFO   [W] BTTS_YES   2025-05-18          GKS Katowice vs Lech Poznan         pick=   NO  @1.36  stk=0.0329  edge=+0.070  pnl=+0.0118  BR=36.1969
+2026-04-24 20:26:47,510 INFO   [...] Przetworzono 3500/5018 meczow (CSV=0, API=3495)
+2026-04-24 20:26:47,512 INFO   [W] BTTS_YES   2025-08-09           Widzew Łódź vs Wisla Plock         pick=   NO  @1.29  stk=0.0184  edge=+0.033  pnl=+0.0053  BR=37.2388
+2026-04-24 20:26:47,514 INFO 
+[TRAIN] Walk-forward blok #7 — trening na 3500 meczach...
+2026-04-24 20:26:49,944 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:49,976 INFO   [W] BTTS_YES   2025-08-30             Stuttgart vs Borussia Mogladbac  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=38.0182
+2026-04-24 20:26:49,977 INFO   [W] OU35       2025-08-30             Stuttgart vs Borussia Mogladbac  pick=UNDER  @2.05  stk=0.0500  edge=+0.284  pnl=+0.0525  BR=59.3106
+2026-04-24 20:26:50,012 INFO   [W] BTTS_YES   2025-09-20                Girona vs Levante             pick=   NO  @1.32  stk=0.0315  edge=+0.061  pnl=+0.0101  BR=38.9406
+2026-04-24 20:26:50,045 INFO   [W] DC_1X      2025-10-04              Augsburg vs Wolfsburg           pick=   1X  @1.44  stk=0.0162  edge=+0.040  pnl=+0.0071  BR=0.1251
+2026-04-24 20:26:50,046 INFO   [W] BTTS_YES   2025-10-04              Augsburg vs Wolfsburg           pick=   NO  @1.40  stk=0.0392  edge=+0.090  pnl=+0.0157  BR=39.7764
+2026-04-24 20:26:50,047 INFO   [W] OU35       2025-10-04              Augsburg vs Wolfsburg           pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=61.6251
+2026-04-24 20:26:50,078 INFO   [W] BTTS_YES   2025-10-25        Pogon Szczecin vs Cracovia            pick=   NO  @1.40  stk=0.0353  edge=+0.081  pnl=+0.0141  BR=40.7327
+2026-04-24 20:26:50,110 INFO   [...] Przetworzono 4000/5018 meczow (CSV=0, API=3992)
+2026-04-24 20:26:50,112 INFO   [W] BTTS_YES   2025-11-08      Bayer Leverkusen vs Heidenheim          pick=   NO  @1.35  stk=0.0339  edge=+0.070  pnl=+0.0119  BR=41.6714
+2026-04-24 20:26:50,112 INFO   [W] OU35       2025-11-08      Bayer Leverkusen vs Heidenheim          pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=65.3171
+2026-04-24 20:26:50,115 INFO 
+[TRAIN] Walk-forward blok #8 — trening na 4000 meczach...
+2026-04-24 20:26:52,770 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:52,805 INFO   [L] DC_1X      2025-11-29         Korona Kielce vs Cracovia            pick=   1X  @1.36  stk=0.0218  edge=+0.046  pnl=-0.0218  BR=0.0486
+2026-04-24 20:26:52,874 INFO   [W] DC_1X      2026-01-03                  Como vs Udinese             pick=   1X  @1.19  stk=0.0476  edge=+0.061  pnl=+0.0090  BR=0.2654
+2026-04-24 20:26:52,879 INFO   [W] DC_12      2026-01-03                  Como vs Udinese             pick=   12  @1.32  stk=0.0239  edge=+0.046  pnl=+0.0076  BR=0.3889
+2026-04-24 20:26:52,879 INFO   [W] OU35       2026-01-03                  Como vs Udinese             pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=71.9696
+2026-04-24 20:26:52,913 INFO   [W] OU25       2026-01-17           Real Madrid vs Levante             pick=UNDER  @2.25  stk=0.0500  edge=+0.282  pnl=+0.0625  BR=12.2639
+2026-04-24 20:26:52,914 INFO   [W] OU35       2026-01-17           Real Madrid vs Levante             pick=UNDER  @1.73  stk=0.0500  edge=+0.224  pnl=+0.0365  BR=74.8411
+2026-04-24 20:26:52,947 INFO   [...] Przetworzono 4500/5018 meczow (CSV=0, API=4492)
+2026-04-24 20:26:52,950 INFO 
+[TRAIN] Walk-forward blok #9 — trening na 4500 meczach...
+2026-04-24 20:26:55,634 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:26:55,669 INFO   [L] DC_1X      2026-02-16              Cagliari vs Lecce               pick=   1X  @1.31  stk=0.0291  edge=+0.055  pnl=-0.0291  BR=0.0100
+2026-04-24 20:26:55,670 INFO   [W] DC_12      2026-02-16              Cagliari vs Lecce               pick=   12  @1.44  stk=0.0295  edge=+0.072  pnl=+0.0130  BR=0.3622
+2026-04-24 20:26:55,705 INFO   [W] DC_1X      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   1X  @1.31  stk=0.0500  edge=+0.104  pnl=+0.0155  BR=0.1161
+2026-04-24 20:26:55,706 INFO   [W] DC_12      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   12  @1.57  stk=0.0500  edge=+0.152  pnl=+0.0285  BR=0.5946
+2026-04-24 20:26:55,744 INFO   [L] DC_12      2026-03-16        Rayo Vallecano vs Levante             pick=   12  @1.50  stk=0.0429  edge=+0.114  pnl=-0.0429  BR=0.7853
+2026-04-24 20:26:55,778 INFO   [W] DC_12      2026-04-11            Heidenheim vs Union Berlin        pick=   12  @1.41  stk=0.0245  edge=+0.057  pnl=+0.0100  BR=1.1283
+2026-04-24 20:26:55,780 INFO   [W] OU35       2026-04-11            Heidenheim vs Union Berlin        pick=UNDER  @1.91  stk=0.0500  edge=+0.257  pnl=+0.0455  BR=89.1186
+2026-04-24 20:26:55,843 INFO [MODEL] Zapisano: /mnt/c/Users/rockd/Desktop/universal_model/Karasu_2_model_state.pkl
+2026-04-24 20:26:55,844 INFO 
+[OK] Meczow: 5001  |  Z wynikiem: 4963 (CSV=0, API=4963)
+2026-04-24 20:26:55,845 INFO 
+[METRYKI] MAE 1X2 (wszystkie mecze): 0.3676
+2026-04-24 20:26:55,845 INFO [METRYKI] Accuracy 1X2 (wszystkie mecze): 60.6% (4963 meczow, bez selection bias)
+2026-04-24 20:26:55,845 INFO   1X2       : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:26:55,846 INFO   DC_1X     : 1292 zakladow, 869 W, bankroll=0.0354
+2026-04-24 20:26:55,846 INFO   DC_X2     : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:26:55,846 INFO   DC_12     : 921 zakladow, 645 W, bankroll=1.3497
+2026-04-24 20:26:55,847 INFO   BTTS_YES  : 3298 zakladow, 3298 W, bankroll=41.9798
+2026-04-24 20:26:55,847 INFO   OU15      : 7 zakladow, 7 W, bankroll=1.1594
+2026-04-24 20:26:55,848 INFO   OU25      : 241 zakladow, 241 W, bankroll=16.3594
+2026-04-24 20:26:55,848 INFO   OU35      : 1632 zakladow, 1632 W, bankroll=90.6926
+2026-04-24 20:26:55,848 INFO   AH05      : 14 zakladow, 9 W, bankroll=1.1410
+2026-04-24 20:31:35,671 INFO 
+====================================================================
+2026-04-24 20:31:35,672 INFO   QUARTER4 — MULTI-MARKET BACKTEST (v5.3 - STANDALONE)
+2026-04-24 20:31:35,672 INFO   Kelly: 1/8  |  Prog: 0.88
+2026-04-24 20:31:35,673 INFO   Filtrowanie kursow: max=3.5, min=1.1
+2026-04-24 20:31:35,673 INFO ====================================================================
+
+2026-04-24 20:31:35,673 INFO [MODEL] Nowy model (start od zera)
+2026-04-24 20:31:35,674 INFO [EVENTS] Wczytuje: /mnt/c/Users/rockd/Desktop/universal_model/events.csv
+2026-04-24 20:31:35,764 INFO [EVENTS] 5018 rekordow
+2026-04-24 20:31:35,821 INFO [EVENTS] Po parsowaniu: 5018 meczow
+
+2026-04-24 20:31:35,837 INFO [CACHE] 5001 wynikow w cache
+
+2026-04-24 20:31:35,839 INFO   [W] BTTS_YES   2023-07-29         Slask Wroclaw vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0118
+2026-04-24 20:31:35,840 INFO   [W] BTTS_YES   2023-07-29    Jagiellonia Bialys vs Puszcza Niepolomic  pick=   NO  @1.36  stk=0.0222  edge=+0.047  pnl=+0.0080  BR=1.0198
+2026-04-24 20:31:35,841 INFO   [W] BTTS_YES   2023-07-30        Pogon Szczecin vs Widzew Łódź         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0299
+2026-04-24 20:31:35,842 INFO   [W] BTTS_YES   2023-08-04    Jagiellonia Bialys vs Widzew Łódź         pick=   NO  @1.36  stk=0.0218  edge=+0.046  pnl=+0.0078  BR=1.0377
+2026-04-24 20:31:35,843 INFO   [W] BTTS_YES   2023-08-04              ŁKS Łódź vs Korona Kielce       pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=1.0495
+2026-04-24 20:31:35,843 INFO   [W] BTTS_YES   2023-08-05         Gornik Zabrze vs Piast Gliwice       pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.0556
+2026-04-24 20:31:35,844 INFO   [W] BTTS_YES   2023-08-06        Zaglebie Lubin vs Lech Poznan         pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=1.0657
+2026-04-24 20:31:35,845 INFO   [W] BTTS_YES   2023-08-06                 Legia vs Ruch Chorzow        pick=   NO  @1.33  stk=0.0251  edge=+0.050  pnl=+0.0083  BR=1.0740
+2026-04-24 20:31:35,846 INFO   [W] BTTS_YES   2023-08-07    Puszcza Niepolomic vs Stal Mielec         pick=   NO  @1.30  stk=0.0319  edge=+0.059  pnl=+0.0096  BR=1.0836
+2026-04-24 20:31:35,846 INFO   [W] BTTS_YES   2023-08-11              Cracovia vs Zaglebie Lubin      pick=   NO  @1.36  stk=0.0345  edge=+0.073  pnl=+0.0124  BR=1.0960
+2026-04-24 20:31:35,847 INFO   [W] BTTS_YES   2023-08-11         Piast Gliwice vs Rakow Czestochowa   pick=   NO  @1.22  stk=0.0235  edge=+0.034  pnl=+0.0052  BR=1.1012
+2026-04-24 20:31:35,848 INFO   [W] BTTS_YES   2023-08-12           Stal Mielec vs Slask Wroclaw       pick=   NO  @1.29  stk=0.0427  edge=+0.077  pnl=+0.0124  BR=1.1136
+2026-04-24 20:31:35,848 INFO   [W] BTTS_YES   2023-08-12           Widzew Łódź vs ŁKS Łódź            pick=   NO  @1.33  stk=0.0197  edge=+0.039  pnl=+0.0065  BR=1.1201
+2026-04-24 20:31:35,849 INFO   [W] BTTS_YES   2023-08-12         Korona Kielce vs Gornik Zabrze       pick=   NO  @1.30  stk=0.0412  edge=+0.076  pnl=+0.0124  BR=1.1325
+2026-04-24 20:31:35,849 INFO   [W] BTTS_YES   2023-08-13        Pogon Szczecin vs Radomiak Radom      pick=   NO  @1.36  stk=0.0246  edge=+0.052  pnl=+0.0089  BR=1.1414
+2026-04-24 20:31:35,851 INFO   [W] BTTS_YES   2023-08-18         Gornik Zabrze vs Widzew Łódź         pick=   NO  @1.33  stk=0.0293  edge=+0.058  pnl=+0.0097  BR=1.1511
+2026-04-24 20:31:35,851 INFO   [W] BTTS_YES   2023-08-18        Zaglebie Lubin vs Puszcza Niepolomic  pick=   NO  @1.29  stk=0.0311  edge=+0.056  pnl=+0.0090  BR=1.1601
+2026-04-24 20:31:35,852 INFO   [W] BTTS_YES   2023-08-18              Mallorca vs Villarreal          pick=   NO  @1.25  stk=0.0243  edge=+0.039  pnl=+0.0061  BR=1.1662
+2026-04-24 20:31:35,875 INFO   [W] BTTS_YES   2023-09-18     Nottingham Forest vs Burnley             pick=   NO  @1.32  stk=0.0202  edge=+0.039  pnl=+0.0065  BR=2.1079
+2026-04-24 20:31:35,893 INFO   [W] BTTS_YES   2023-09-30                 Lecce vs Napoli              pick=   NO  @1.25  stk=0.0373  edge=+0.060  pnl=+0.0093  BR=3.0884
+2026-04-24 20:31:35,909 INFO   [W] BTTS_YES   2023-10-22           Aston Villa vs West Ham            pick=   NO  @1.41  stk=0.0414  edge=+0.096  pnl=+0.0170  BR=4.0682
+2026-04-24 20:31:35,928 INFO   [...] Przetworzono 500/5018 meczow (CSV=0, API=499)
+2026-04-24 20:31:35,930 INFO   [W] BTTS_YES   2023-11-05     Rakow Czestochowa vs Zaglebie Lubin      pick=   NO  @1.33  stk=0.0330  edge=+0.065  pnl=+0.0109  BR=5.1364
+2026-04-24 20:31:35,930 INFO 
+[TRAIN] Walk-forward blok #1 — trening na 500 meczach...
+2026-04-24 20:31:39,089 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:39,118 INFO   [W] BTTS_YES   2023-11-26            Hoffenheim vs Mainz               pick=   NO  @1.44  stk=0.0500  edge=+0.124  pnl=+0.0220  BR=6.1758
+2026-04-24 20:31:39,144 INFO   [W] BTTS_YES   2023-12-10           Lech Poznan vs Piast Gliwice       pick=   NO  @1.25  stk=0.0367  edge=+0.059  pnl=+0.0092  BR=7.1919
+2026-04-24 20:31:39,174 INFO   [W] BTTS_YES   2023-12-23                Torino vs Udinese             pick=   NO  @1.22  stk=0.0259  edge=+0.037  pnl=+0.0057  BR=8.2347
+2026-04-24 20:31:39,202 INFO   [W] BTTS_YES   2024-01-21      Sheffield United vs West Ham            pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=9.1660
+2026-04-24 20:31:39,228 INFO   [...] Przetworzono 1000/5018 meczow (CSV=0, API=999)
+2026-04-24 20:31:39,229 INFO   [W] BTTS_YES   2024-02-09     Borussia Dortmund vs Freiburg            pick=   NO  @1.44  stk=0.0394  edge=+0.096  pnl=+0.0173  BR=10.0916
+2026-04-24 20:31:39,230 INFO 
+[TRAIN] Walk-forward blok #2 — trening na 1000 meczach...
+2026-04-24 20:31:40,527 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:40,558 INFO   [W] OU35       2024-02-23      Bayer Leverkusen vs Mainz               pick=UNDER  @2.00  stk=0.0500  edge=+0.277  pnl=+0.0500  BR=4.4970
+2026-04-24 20:31:40,587 INFO   [W] OU35       2024-03-09               Arsenal vs Brentford           pick=UNDER  @2.10  stk=0.0500  edge=+0.286  pnl=+0.0550  BR=4.9620
+2026-04-24 20:31:40,615 INFO   [W] BTTS_YES   2024-03-30               Almeria vs Osasuna             pick=   NO  @1.30  stk=0.0432  edge=+0.080  pnl=+0.0130  BR=13.1596
+2026-04-24 20:31:40,644 INFO   [W] BTTS_YES   2024-04-13                 Mainz vs Hoffenheim          pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=14.3584
+2026-04-24 20:31:40,672 INFO   [...] Przetworzono 1500/5018 meczow (CSV=0, API=1499)
+2026-04-24 20:31:40,673 INFO   [L] DC_1X      2024-04-27              Freiburg vs Wolfsburg           pick=   1X  @1.36  stk=0.0345  edge=+0.073  pnl=-0.0345  BR=0.7536
+2026-04-24 20:31:40,674 INFO   [W] BTTS_YES   2024-04-27              Freiburg vs Wolfsburg           pick=   NO  @1.33  stk=0.0273  edge=+0.054  pnl=+0.0090  BR=15.5019
+2026-04-24 20:31:40,674 INFO 
+[TRAIN] Walk-forward blok #3 — trening na 1500 meczach...
+2026-04-24 20:31:42,060 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:42,097 INFO   [W] DC_1X      2024-05-11            FC Cologne vs Union Berlin        pick=   1X  @1.44  stk=0.0500  edge=+0.158  pnl=+0.0220  BR=0.8960
+2026-04-24 20:31:42,098 INFO   [W] BTTS_YES   2024-05-11            FC Cologne vs Union Berlin        pick=   NO  @1.33  stk=0.0357  edge=+0.071  pnl=+0.0118  BR=16.8465
+2026-04-24 20:31:42,136 INFO   [W] DC_1X      2024-05-25               Osasuna vs Villarreal          pick=   1X  @1.50  stk=0.0203  edge=+0.054  pnl=+0.0101  BR=0.6073
+2026-04-24 20:31:42,137 INFO   [W] BTTS_YES   2024-05-25               Osasuna vs Villarreal          pick=   NO  @1.53  stk=0.0464  edge=+0.129  pnl=+0.0246  BR=18.1917
+2026-04-24 20:31:42,137 INFO   [W] OU35       2024-05-25               Osasuna vs Villarreal          pick=UNDER  @1.85  stk=0.0500  edge=+0.253  pnl=+0.0425  BR=9.3885
+2026-04-24 20:31:42,165 INFO   [W] DC_1X      2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   1X  @1.24  stk=0.0246  edge=+0.038  pnl=+0.0059  BR=0.5072
+2026-04-24 20:31:42,166 INFO   [W] BTTS_YES   2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=   NO  @1.47  stk=0.0485  edge=+0.124  pnl=+0.0228  BR=19.1276
+2026-04-24 20:31:42,166 INFO   [W] OU35       2024-08-24     Borussia Dortmund vs Eintracht Frankfur  pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=10.2020
+2026-04-24 20:31:42,197 INFO   [W] DC_1X      2024-09-14              Cracovia vs Pogon Szczecin      pick=   1X  @1.57  stk=0.0272  edge=+0.079  pnl=+0.0155  BR=0.3464
+2026-04-24 20:31:42,198 INFO   [W] BTTS_YES   2024-09-14              Cracovia vs Pogon Szczecin      pick=   NO  @1.40  stk=0.0253  edge=+0.058  pnl=+0.0101  BR=20.1366
+2026-04-24 20:31:42,226 INFO   [...] Przetworzono 2000/5018 meczow (CSV=0, API=1999)
+2026-04-24 20:31:42,227 INFO   [W] BTTS_YES   2024-09-26            Las Palmas vs Betis               pick=   NO  @1.30  stk=0.0271  edge=+0.050  pnl=+0.0081  BR=21.1975
+2026-04-24 20:31:42,227 INFO 
+[TRAIN] Walk-forward blok #4 — trening na 2000 meczach...
+2026-04-24 20:31:44,134 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:44,165 INFO   [W] BTTS_YES   2024-10-18         Lechia Gdansk vs Legia               pick=   NO  @1.34  stk=0.0386  edge=+0.078  pnl=+0.0131  BR=22.2886
+2026-04-24 20:31:44,197 INFO   [W] BTTS_YES   2024-10-30              Atalanta vs Monza               pick=   NO  @1.25  stk=0.0246  edge=+0.039  pnl=+0.0062  BR=23.4962
+2026-04-24 20:31:44,198 INFO   [W] OU25       2024-10-30              Atalanta vs Monza               pick=UNDER  @2.47  stk=0.0500  edge=+0.314  pnl=+0.0735  BR=2.9815
+2026-04-24 20:31:44,198 INFO   [W] OU35       2024-10-30              Atalanta vs Monza               pick=UNDER  @1.67  stk=0.0500  edge=+0.215  pnl=+0.0335  BR=17.4790
+2026-04-24 20:31:44,258 INFO   [W] BTTS_YES   2024-12-04               Arsenal vs Manchester Utd      pick=   NO  @1.28  stk=0.0414  edge=+0.072  pnl=+0.0116  BR=25.6496
+2026-04-24 20:31:44,259 INFO   [W] OU35       2024-12-04               Arsenal vs Manchester Utd      pick=UNDER  @2.73  stk=0.0500  edge=+0.353  pnl=+0.0865  BR=26.0565
+2026-04-24 20:31:44,288 INFO   [...] Przetworzono 2500/5018 meczow (CSV=0, API=2496)
+2026-04-24 20:31:44,289 INFO   [W] DC_1X      2024-12-21           Aston Villa vs Manchester City     pick=   1X  @1.67  stk=0.0500  edge=+0.179  pnl=+0.0335  BR=0.3304
+2026-04-24 20:31:44,289 INFO   [W] BTTS_YES   2024-12-21           Aston Villa vs Manchester City     pick=   NO  @1.44  stk=0.0419  edge=+0.102  pnl=+0.0184  BR=26.8384
+2026-04-24 20:31:44,290 INFO   [W] OU35       2024-12-21           Aston Villa vs Manchester City     pick=UNDER  @2.56  stk=0.0500  edge=+0.339  pnl=+0.0780  BR=31.6742
+2026-04-24 20:31:44,292 INFO 
+[TRAIN] Walk-forward blok #5 — trening na 2500 meczach...
+2026-04-24 20:31:45,777 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:45,813 INFO   [W] BTTS_YES   2025-01-12            RB Leipzig vs Werder Bremen       pick=   NO  @1.44  stk=0.0377  edge=+0.092  pnl=+0.0166  BR=27.9790
+2026-04-24 20:31:45,844 INFO   [W] BTTS_YES   2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=29.0445
+2026-04-24 20:31:45,845 INFO   [W] OU35       2025-01-26            Hoffenheim vs Eintracht Frankfur  pick=UNDER  @1.83  stk=0.0500  edge=+0.244  pnl=+0.0415  BR=41.9041
+2026-04-24 20:31:45,877 INFO   [W] DC_1X      2025-02-14              Augsburg vs RB Leipzig          pick=   1X  @1.62  stk=0.0470  edge=+0.144  pnl=+0.0291  BR=0.0391
+2026-04-24 20:31:45,878 INFO   [W] BTTS_YES   2025-02-14              Augsburg vs RB Leipzig          pick=   NO  @1.37  stk=0.0430  edge=+0.093  pnl=+0.0159  BR=30.1008
+2026-04-24 20:31:45,909 INFO   [W] BTTS_YES   2025-02-26        Manchester Utd vs Ipswich Town        pick=   NO  @1.34  stk=0.0375  edge=+0.076  pnl=+0.0128  BR=31.1168
+2026-04-24 20:31:45,910 INFO   [W] OU35       2025-02-26        Manchester Utd vs Ipswich Town        pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=46.5401
+2026-04-24 20:31:45,940 INFO   [...] Przetworzono 3000/5018 meczow (CSV=0, API=2995)
+2026-04-24 20:31:45,941 INFO   [W] BTTS_YES   2025-03-15          Ipswich Town vs Nottingham Forest   pick=   NO  @1.34  stk=0.0315  edge=+0.064  pnl=+0.0107  BR=32.0288
+2026-04-24 20:31:45,943 INFO 
+[TRAIN] Walk-forward blok #6 — trening na 3000 meczach...
+2026-04-24 20:31:45,253 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:45,295 INFO   [W] BTTS_YES   2025-04-05            RB Leipzig vs Hoffenheim          pick=   NO  @1.44  stk=0.0499  edge=+0.122  pnl=+0.0220  BR=32.8018
+2026-04-24 20:31:45,295 INFO   [W] OU35       2025-04-05            RB Leipzig vs Hoffenheim          pick=UNDER  @2.10  stk=0.0500  edge=+0.289  pnl=+0.0550  BR=50.1476
+2026-04-24 20:31:45,328 INFO   [W] DC_1X      2025-04-19                  Roma vs Verona              pick=   1X  @1.13  stk=0.0500  edge=+0.047  pnl=+0.0065  BR=0.1761
+2026-04-24 20:31:45,328 INFO   [W] DC_12      2025-04-19                  Roma vs Verona              pick=   12  @1.27  stk=0.0180  edge=+0.031  pnl=+0.0049  BR=0.3925
+2026-04-24 20:31:45,329 INFO   [W] BTTS_YES   2025-04-19                  Roma vs Verona              pick=   NO  @1.26  stk=0.0348  edge=+0.057  pnl=+0.0090  BR=33.7559
+2026-04-24 20:31:45,362 INFO   [W] BTTS_YES   2025-05-03                 Inter vs Verona              pick=   NO  @1.22  stk=0.0247  edge=+0.036  pnl=+0.0054  BR=34.8754
+2026-04-24 20:31:45,363 INFO   [W] OU25       2025-05-03                 Inter vs Verona              pick=UNDER  @2.10  stk=0.0500  edge=+0.281  pnl=+0.0550  BR=8.8835
+2026-04-24 20:31:45,364 INFO   [W] OU35       2025-05-03                 Inter vs Verona              pick=UNDER  @1.67  stk=0.0500  edge=+0.212  pnl=+0.0335  BR=54.3451
+2026-04-24 20:31:45,403 INFO   [W] BTTS_YES   2025-05-18          GKS Katowice vs Lech Poznan         pick=   NO  @1.36  stk=0.0329  edge=+0.070  pnl=+0.0118  BR=36.1969
+2026-04-24 20:31:45,434 INFO   [...] Przetworzono 3500/5018 meczow (CSV=0, API=3495)
+2026-04-24 20:31:45,436 INFO   [W] BTTS_YES   2025-08-09           Widzew Łódź vs Wisla Plock         pick=   NO  @1.29  stk=0.0184  edge=+0.033  pnl=+0.0053  BR=37.2388
+2026-04-24 20:31:45,438 INFO 
+[TRAIN] Walk-forward blok #7 — trening na 3500 meczach...
+2026-04-24 20:31:47,038 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:47,069 INFO   [W] BTTS_YES   2025-08-30             Stuttgart vs Borussia Mogladbac  pick=   NO  @1.53  stk=0.0432  edge=+0.120  pnl=+0.0229  BR=38.0182
+2026-04-24 20:31:47,070 INFO   [W] OU35       2025-08-30             Stuttgart vs Borussia Mogladbac  pick=UNDER  @2.05  stk=0.0500  edge=+0.284  pnl=+0.0525  BR=59.3106
+2026-04-24 20:31:47,102 INFO   [W] BTTS_YES   2025-09-20                Girona vs Levante             pick=   NO  @1.32  stk=0.0315  edge=+0.061  pnl=+0.0101  BR=38.9406
+2026-04-24 20:31:47,133 INFO   [W] DC_1X      2025-10-04              Augsburg vs Wolfsburg           pick=   1X  @1.44  stk=0.0162  edge=+0.040  pnl=+0.0071  BR=0.1251
+2026-04-24 20:31:47,134 INFO   [W] BTTS_YES   2025-10-04              Augsburg vs Wolfsburg           pick=   NO  @1.40  stk=0.0392  edge=+0.090  pnl=+0.0157  BR=39.7764
+2026-04-24 20:31:47,135 INFO   [W] OU35       2025-10-04              Augsburg vs Wolfsburg           pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=61.6251
+2026-04-24 20:31:47,167 INFO   [W] BTTS_YES   2025-10-25        Pogon Szczecin vs Cracovia            pick=   NO  @1.40  stk=0.0353  edge=+0.081  pnl=+0.0141  BR=40.7327
+2026-04-24 20:31:47,206 INFO   [...] Przetworzono 4000/5018 meczow (CSV=0, API=3992)
+2026-04-24 20:31:47,208 INFO   [W] BTTS_YES   2025-11-08      Bayer Leverkusen vs Heidenheim          pick=   NO  @1.35  stk=0.0339  edge=+0.070  pnl=+0.0119  BR=41.6714
+2026-04-24 20:31:47,209 INFO   [W] OU35       2025-11-08      Bayer Leverkusen vs Heidenheim          pick=UNDER  @2.00  stk=0.0500  edge=+0.274  pnl=+0.0500  BR=65.3171
+2026-04-24 20:31:47,212 INFO 
+[TRAIN] Walk-forward blok #8 — trening na 4000 meczach...
+2026-04-24 20:31:49,199 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:49,229 INFO   [L] DC_1X      2025-11-29         Korona Kielce vs Cracovia            pick=   1X  @1.36  stk=0.0218  edge=+0.046  pnl=-0.0218  BR=0.0486
+2026-04-24 20:31:49,296 INFO   [W] DC_1X      2026-01-03                  Como vs Udinese             pick=   1X  @1.19  stk=0.0476  edge=+0.061  pnl=+0.0090  BR=0.2654
+2026-04-24 20:31:49,297 INFO   [W] DC_12      2026-01-03                  Como vs Udinese             pick=   12  @1.32  stk=0.0239  edge=+0.046  pnl=+0.0076  BR=0.3889
+2026-04-24 20:31:49,298 INFO   [W] OU35       2026-01-03                  Como vs Udinese             pick=UNDER  @2.20  stk=0.0500  edge=+0.303  pnl=+0.0600  BR=71.9696
+2026-04-24 20:31:49,329 INFO   [W] OU25       2026-01-17           Real Madrid vs Levante             pick=UNDER  @2.25  stk=0.0500  edge=+0.282  pnl=+0.0625  BR=12.2639
+2026-04-24 20:31:49,330 INFO   [W] OU35       2026-01-17           Real Madrid vs Levante             pick=UNDER  @1.73  stk=0.0500  edge=+0.224  pnl=+0.0365  BR=74.8411
+2026-04-24 20:31:49,363 INFO   [...] Przetworzono 4500/5018 meczow (CSV=0, API=4492)
+2026-04-24 20:31:49,366 INFO 
+[TRAIN] Walk-forward blok #9 — trening na 4500 meczach...
+2026-04-24 20:31:51,913 INFO [TRAIN] Ensemble gotowy!
+
+2026-04-24 20:31:51,947 INFO   [L] DC_1X      2026-02-16              Cagliari vs Lecce               pick=   1X  @1.31  stk=0.0291  edge=+0.055  pnl=-0.0291  BR=0.0100
+2026-04-24 20:31:51,947 INFO   [W] DC_12      2026-02-16              Cagliari vs Lecce               pick=   12  @1.44  stk=0.0295  edge=+0.072  pnl=+0.0130  BR=0.3622
+2026-04-24 20:31:51,979 INFO   [W] DC_1X      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   1X  @1.31  stk=0.0500  edge=+0.104  pnl=+0.0155  BR=0.1161
+2026-04-24 20:31:51,980 INFO   [W] DC_12      2026-03-02        Zaglebie Lubin vs Wisla Plock         pick=   12  @1.57  stk=0.0500  edge=+0.152  pnl=+0.0285  BR=0.5946
+2026-04-24 20:31:52,015 INFO   [L] DC_12      2026-03-16        Rayo Vallecano vs Levante             pick=   12  @1.50  stk=0.0429  edge=+0.114  pnl=-0.0429  BR=0.7853
+2026-04-24 20:31:52,047 INFO   [W] DC_12      2026-04-11            Heidenheim vs Union Berlin        pick=   12  @1.41  stk=0.0245  edge=+0.057  pnl=+0.0100  BR=1.1283
+2026-04-24 20:31:52,048 INFO   [W] OU35       2026-04-11            Heidenheim vs Union Berlin        pick=UNDER  @1.91  stk=0.0500  edge=+0.257  pnl=+0.0455  BR=89.1186
+2026-04-24 20:31:52,107 INFO [MODEL] Zapisano: /mnt/c/Users/rockd/Desktop/universal_model/Karasu_2_model_state.pkl
+2026-04-24 20:31:52,107 INFO 
+[OK] Meczow: 5001  |  Z wynikiem: 4963 (CSV=0, API=4963)
+2026-04-24 20:31:52,108 INFO 
+[METRYKI] MAE 1X2 (wszystkie mecze): 0.3676
+2026-04-24 20:31:52,109 INFO [METRYKI] Accuracy 1X2 (wszystkie mecze): 60.6% (4963 meczow, bez selection bias)
+2026-04-24 20:31:52,109 INFO   1X2       : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:31:52,109 INFO   DC_1X     : 1292 zakladow, 869 W, bankroll=0.0354
+2026-04-24 20:31:52,110 INFO   DC_X2     : 0 zakladow, 0 W, bankroll=1.0000
+2026-04-24 20:31:52,110 INFO   DC_12     : 921 zakladow, 645 W, bankroll=1.3497
+2026-04-24 20:31:52,111 INFO   BTTS_YES  : 3298 zakladow, 3298 W, bankroll=41.9798
+2026-04-24 20:31:52,112 INFO   OU15      : 7 zakladow, 7 W, bankroll=1.1594
+2026-04-24 20:31:52,112 INFO   OU25      : 241 zakladow, 241 W, bankroll=16.3594
+2026-04-24 20:31:52,112 INFO   OU35      : 1632 zakladow, 1632 W, bankroll=90.6926
+2026-04-24 20:31:52,113 INFO   AH05      : 14 zakladow, 9 W, bankroll=1.1410
+2026-04-24 20:32:10,497 INFO [ZAPIS] Summary -> /mnt/c/Users/rockd/Desktop/universal_model/Karasu_backtest_2_summary.txt
+2026-04-24 20:32:10,539 INFO [ZAPIS] Tracker -> /mnt/c/Users/rockd/Desktop/universal_model/Karasu_2_tracker.txt
+2026-04-24 20:32:10,551 INFO [ZAPIS] JSON -> /mnt/c/Users/rockd/Desktop/universal_model/Karasu_backtest_2_results.json
