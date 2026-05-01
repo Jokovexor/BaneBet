@@ -1,32 +1,32 @@
 {
   "stability": {
-    "walkforward_mae_mean": 0.35808855846774196,
-    "walkforward_mae_std": 0.0033939936873145556,
-    "walkforward_acc_mean": 0.6451612903225806,
-    "walkforward_acc_std": 0.015922952619890424,
-    "walkforward_brier_mean": 0.22368029541834678,
-    "walkforward_brier_std": 0.0023875447490834334,
+    "walkforward_mae_mean": 0.35403565909090906,
+    "walkforward_mae_std": 0.00448898051033982,
+    "walkforward_acc_mean": 0.6475,
+    "walkforward_acc_std": 0.018060675970985277,
+    "walkforward_brier_mean": 0.22258603426136364,
+    "walkforward_brier_std": 0.003520212109124507,
     "is_stable": 1,
     "stability_verdict": "STABILNY"
   },
   "overfitting_test": {
-    "train_mae_mean": 0.35694079999999995,
-    "test_mae_mean": 0.35739238210399027,
-    "overfitting_gap": 0.0004515821039903223,
-    "overfitting_ratio": 0.0012651456599814938,
+    "train_mae_mean": 0.3649656,
+    "test_mae_mean": 0.35328917030567686,
+    "overfitting_gap": -0.011676429694323143,
+    "overfitting_ratio": -0.03199323359331165,
     "is_overfitting": 0,
     "verdict": "OK"
   },
   "gap_analysis": {
-    "n_predictions": 4963,
-    "mean_predicted_prob": 0.5323200886560547,
-    "mean_actual_rate": 0.5627644569816643,
-    "calibration_error": 0.036281543437215326,
+    "n_predictions": 5501,
+    "mean_predicted_prob": 0.5381698782039629,
+    "mean_actual_rate": 0.5630794401017997,
+    "calibration_error": 0.04055317368185886,
     "is_calibrated": 1,
     "gap_verdict": "DOBRZE KALIBROWANY"
   },
   "business_summary": {
-    "report": "\n=== RAPORT WALIDACYJNY MODELU (wersja biznesowa) ===\n\n1) STABILNOŚĆ W CZASIE:\n   - Walk-forward MAE: 0.3581 (+/- 0.0034)\n   - Stabilność: STABILNY\n\n2) OVERFITTING:\n   - Train MAE: 0.3569\n   - Test MAE: 0.3574\n   - GAP: 0.0005\n   - Werdykt: OK\n\n3) KALIBRACJA:\n   - Średnie p_model: 0.5323\n   - Rzeczywista wygrana: 0.5628\n   - Werdykt: DOBRZE KALIBROWANY\n\n4) REKOMENDACJE:\n   - ✅ MODEL GOTOWY DO UŻYTKU\n",
+    "report": "\n=== RAPORT WALIDACYJNY MODELU (wersja biznesowa) ===\n\n1) STABILNOŚĆ W CZASIE:\n   - Walk-forward MAE: 0.3540 (+/- 0.0045)\n   - Stabilność: STABILNY\n\n2) OVERFITTING:\n   - Train MAE: 0.3650\n   - Test MAE: 0.3533\n   - GAP: -0.0117\n   - Werdykt: OK\n\n3) KALIBRACJA:\n   - Średnie p_model: 0.5382\n   - Rzeczywista wygrana: 0.5631\n   - Werdykt: DOBRZE KALIBROWANY\n\n4) REKOMENDACJE:\n   - ✅ MODEL GOTOWY DO UŻYTKU\n",
     "is_production_ready": 1,
     "stability_ok": 1,
     "overfitting_ok": 1,
