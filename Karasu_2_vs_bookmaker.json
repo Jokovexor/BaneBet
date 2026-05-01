@@ -1,0 +1,83 @@
+{
+  "1X2": {
+    "model_correct": 1178,
+    "bookmaker_correct": 1176,
+    "total": 1961,
+    "model_accuracy": 60.07,
+    "bookmaker_accuracy": 59.97,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "DC_1X": {
+    "model_correct": 2660,
+    "bookmaker_correct": 2650,
+    "total": 3658,
+    "model_accuracy": 72.72,
+    "bookmaker_accuracy": 72.44,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "DC_X2": {
+    "model_correct": 775,
+    "bookmaker_correct": 773,
+    "total": 985,
+    "model_accuracy": 78.68,
+    "bookmaker_accuracy": 78.48,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "DC_12": {
+    "model_correct": 3608,
+    "bookmaker_correct": 3608,
+    "total": 4916,
+    "model_accuracy": 73.39,
+    "bookmaker_accuracy": 73.39,
+    "model_better": 0,
+    "bookmaker_better": 0
+  },
+  "BTTS_YES": {
+    "model_correct": 1328,
+    "bookmaker_correct": 0,
+    "total": 2629,
+    "model_accuracy": 50.51,
+    "bookmaker_accuracy": 0.0,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "OU15": {
+    "model_correct": 115,
+    "bookmaker_correct": 100,
+    "total": 146,
+    "model_accuracy": 78.77,
+    "bookmaker_accuracy": 68.49,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "OU25": {
+    "model_correct": 323,
+    "bookmaker_correct": 330,
+    "total": 591,
+    "model_accuracy": 54.65,
+    "bookmaker_accuracy": 55.84,
+    "model_better": 0,
+    "bookmaker_better": 1
+  },
+  "OU35": {
+    "model_correct": 806,
+    "bookmaker_correct": 183,
+    "total": 1235,
+    "model_accuracy": 65.26,
+    "bookmaker_accuracy": 14.82,
+    "model_better": 1,
+    "bookmaker_better": 0
+  },
+  "AH05": {
+    "model_correct": 188,
+    "bookmaker_correct": 0,
+    "total": 339,
+    "model_accuracy": 55.46,
+    "bookmaker_accuracy": 0.0,
+    "model_better": 1,
+    "bookmaker_better": 0
+  }
+}
