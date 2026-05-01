@@ -19,3 +19,11 @@ I have the code ready to implement, but what you see here is only a demo version
 Please don't take this personally; I'm not sharing anything that would help bookmakers or at the same time put them at a disadvantage.
 
 So my system isn't designed to help bookmakers, but to gain an advantage over bookmakers.
+
+I’ve just released the clear backtest for BaneBet, proving once and for all how the model operates and how it deconstructs the bookmakers. 
+
+Since the odds are pulled from international markets, the data is indisputable. 
+
+The code is solid and error-free. Expect more logs and evidence soon. 
+
+Please note: the core algorithm remains proprietary—professional secret.
